@@ -1,0 +1,32 @@
+{
+    "name": "jinyicheng/thinkphp_mail",
+    "description": "mail",
+    "keywords": [
+        "thinkphp6",
+        "rabbitmq",
+        "mail",
+        "smtp"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "jinyicheng",
+            "email": "234067496@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "jinyicheng\\thinkphp_mail\\": "src/"
+        }
+    },
+    "extra": {
+        "think": {
+            "config": {
+                "mail": "src/config.php"
+            }
+        }
+    }
+}
